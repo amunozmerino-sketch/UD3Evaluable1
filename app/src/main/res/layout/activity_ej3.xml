@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Ej3Activity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/verde" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/act1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act1"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/act2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act2"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/act3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act3"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/volver"
+            android:layout_gravity="center"
+            android:layout_marginVertical="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/verde" />
+</LinearLayout>
